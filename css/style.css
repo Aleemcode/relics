@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:wght@400;600;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --montserrat: 'Montserrat', sans-serif;
+    --alfaslab: 'Alfa Slab One', cursive;
+    --relics-primary: #00AFEF;
+    --relics-accent: #CA0000;
+    --relics-accent2: #002875;
+    --relics-bg: #FFF4DD;
+    --relics-text: #2A383E;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+}
+
+header .navbar {
+    background: var(--relics-accent);
+}
+
+header {
+    position: relative;
+    background: var(--relics-bg)
+}
+
+header a {
+    font-family: var(--montserrat);
+    font-size: 0.9em;
+    color: var(--relics-bg);
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header .navbar-brand {
+    padding-left: 8rem;
+}
+
+header .navbar-brand img {
+    position: absolute;
+    width: 30vmin;
+    top: 0vmin;
+    background: var(--relics-bg);
+    box-shadow: 0px 2.67692px 2.67692px rgba(0, 0, 0, 0.25);
+    padding: 4vmin 1vmin;
+}
+
+header .mob {
+    display: none;
+}
+
+header .nav-link:hover {
+    color: black;
+}
+
+header .row .col-md-7 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 18vmin;
+}
+
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-5 img {
+    width: 90%;
+}
+
+
+
+header .container .col-md-7 {
+    
+}
+
+header .heroText1 {
+    color: var(--relics-primary);
+}
+
+header .heroText2 {
+    color: var(--relics-text);
+}
+
+header .heroText3 {
+    color: var(--relics-accent);
+}
+
+header .container .col-md-7 h6 {
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+    font-family: var(--alfaslab);
+    letter-spacing: 2px;
+    line-height: 73.93px;
+    font-size: 8vmin;
+    padding: 0.1em 0em;
+
+}
+
+header .container .col-md-7 p {
+    padding: 1vmin 0;
+    font-family: var(--montserrat);
+    color: var(--relics-text);
+}
+
+.btn-light {
+    background: var(--relics-accent2);
+    border-radius: 0;
+    color: white;
+    font-family: var(--montserrat);
+    font-weight: 600;
+    border-color: var(--relics-accent2);
+    padding: 1rem 2rem !important;
+    text-transform: uppercase;
+}
+.primary-btn {
+    border-radius: 30px;
+    font-weight: bold;
+    color: var(--relics-text);
+}
+
+/********** section 1 **************/
+
+.section-1 {
+    padding: 20vmin 0vmin;
+    background: url("../assets/paper.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-1 .pray {
+    background: rgba(46, 46, 46, 0.78);
+    border-radius: 20px; 
+    z-index: 0;
+
+}
+
+.section-1 .pray h2 {
+    padding: 8vmin 6vmin 2vmin 6vmin;
+    font-family: var(--alfaslab);
+    font-weight: none;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    color: var(--relics-bg)
+}
+
+.section-1 .pray .prop {
+    padding-bottom: 8vmin;
+    padding-top: 1vmin;
+    font-size: 3vmin;
+    font-weight: 600;
+}
+
+.section-1 .pray .prop2 {
+    padding-bottom: 8vmin;
+    padding-top: 1vmin;
+    font-size: 3vmin;
+}
+
+
+.section-1 .pray p {
+    color: var(--relics-bg);
+    padding: 0 6vmin;
+}
+
+/* Section 2 */
+.section-2 {
+    padding-bottom: 20vmin;
+    background: var(--relics-bg);
+}
+.section-2 .container h1 {
+    font-size: 6vmin;
+    padding-top: 14vmin;
+}
+
+.section-2 .team {
+    padding: 10vmin 4vmin;
+}
+
+.section-2 .celeb img {
+    width: 207vmin;
+}
+
+.section-2 .card {
+    position: relative;
+    width: 22em;
+    margin-top: 10vmin;
+}
+
+.section-2 .card .card-text {
+    padding: 0.5em;
+}
+
+.section-2 .card-body>a {
+    font-size: 1.5em;
+}
+
+.section-2 .carousel-item {
+    /* padding-left: 3rem; */
+}
+
+.border-radius {
+    border-radius: 340px;
+    width: 60%;
+}
+
+.section-2 .btn-primary {
+    background: var(--relics-accent2) !important;
+    border-color: #002875;
+}
+
+.section-2 h2 {
+    font-family: var(--alfaslab);
+    font-size: 4vmin;
+    color: var(--relics-accent);
+}
+
+.section-2 .card .play {
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    left: 45%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: translate(-50%, -50%); */
+    width: 12vmin;
+    height: 12vmin;
+    background: rgba(27, 27, 27, 0.4);
+    border-radius: 100%;
+    z-index: 500;
+
+}
+
+.close {
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.close:hover {
+    color: var(--relics-accent2);
+}
+iframe {
+    border: none;
+}
+
+.modal-content {
+    background-color: var(--relics-primary);
+    border: var(--relics-accent2);
+}
+
+/* Section 3 */
+
+.section-3 {
+    padding-bottom: 20vmin;
+    padding: 20vmin 0vmin;
+    background: linear-gradient(0deg, rgba(0, 175, 239, 0.8), rgba(0, 175, 239, 0.8)), url("../assets/gallery-6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-3 .card {
+    border: none;
+    background: white;
+    margin-bottom: 2.5rem;
+    
+}
+
+.section-3 h2 {
+    font-family: var(--alfaslab);
+    font-size: 4vmin;
+    font-weight: none;
+    letter-spacing: 2px;
+    color: var(--relics-bg);
+}
+
+.section-3 h4 {
+    font-family: var(--montserrat);
+    font-size: 3vmin;
+    color: var(--relics-text);
+    font-weight: 600;
+}
+
+.section-3 a {
+    color: var(--relics-accent);
+    font-weight: 600;
+}
+
+.section-3 .card .btn  {
+    padding-left: 0 !important;
+}
+
+/* FOoter */
+
+footer {
+    background: #161616;
+    overflow-x: hidden;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    /* padding: 14vmin 18vmin; */
+}
+
+footer .col-md-3 img {
+    width: 20vmin;
+}
+
+footer p>span {
+    color: #ff512f;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+}
+
+footer .column i {
+    color: #dd2476;
+}
+
+footer a {
+    color: #969696;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+footer p {
+    color: #969696;
+}
+
+footer h6 {
+    font-family: var(--montserrat);
+    font-weight: 600;
+}
+
+footer .brand {
+    color: #000000;
+}
+
+footer .face:hover {
+    color: #3b5998;
+    transition: all 0.3s ease-in-out;
+}
+
+footer .twi:hover {
+    color: #00acee;
+    transition: all 0.3s ease-in-out;
+}
+
+footer .insta:hover {
+    color: #FF1E8A;
+    transition: all 0.3s ease-in-out;
+}
+/* It is Adjacent sibling combinator */
+
+footer .column i+i {
+    padding: 0 0.5em;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+}

@@ -1,0 +1,92 @@
+@media only screen and (max-width: 1024px) {
+    header .container .col-md-7 h1 {
+        font-size: 6vmin;
+    }
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+
+    header .nav-item:last-child {
+        padding-right: 1rem;
+    }
+
+    header .navbar-brand img {
+        width: 20vmin;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+    header .nav-item:last-child {
+        padding-right: 0.9em;
+    }
+
+    header .desk {
+        display: none
+    }
+
+    header .mob {
+        display: block;
+        font-size: 18px;
+    }
+
+    header .mob img {
+        width: 4rem;
+        position: relative;
+        background: none;
+        padding: 2vmin 1vmin;
+    }
+
+    header .row .col-md-7 {
+        padding: 2vmin 1vmin;
+        margin-left: -10vmin;
+        padding-bottom: 3vmin;
+    }
+
+    header .container .col-md-7 h1 {
+        font-family: var(--alfaslab);
+        letter-spacing: 2px;
+        line-height: 61.93px;
+        font-size: 6vmin;
+        padding: 1.1em 0em 0.2em 0em;
+    }
+
+    .fa-align-right {
+        color: var(--relics-bg);
+    }
+
+    .carousel-inner {
+        width: 24rem;
+    }
+
+    footer {
+        padding-left: 1rem;
+    }
+
+    footer .col-sm-12 {
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (max-width: 645px)  {
+    header .row .col-md-7 {
+        margin-left: 2vmin;
+        padding-bottom: 3vmin;
+    }
+
+    header .container .col-md-7 h1 {
+        line-height: 40.93px;
+    }
+}
+
+@media only screen and (max-width: 414px)  {
+    header .container .col-md-7 h1 {
+        line-height: 30.93px;
+    }
+    header .row .col-md-7 {
+        margin-left: 7vmin;
+        padding-bottom: 3vmin;
+    }
+}
