@@ -197,6 +197,9 @@ header .container .col-md-7 p {
 .section-2 .card {
     position: relative;
     width: 22em;
+    border: none;
+    background: white;
+    margin-bottom: 2.5rem;
     margin-top: 10vmin;
 }
 
@@ -318,7 +321,7 @@ footer {
 }
 
 footer .col-md-3 img {
-    width: 20vmin;
+    width: 28vmin;
 }
 
 footer p>span {
