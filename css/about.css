@@ -1,0 +1,92 @@
+header {
+    
+    
+
+    
+}
+
+
+
+header .container-fluid .col-md-12 {
+    background: url("../assets/bg-2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+    padding-top: 29vmin;
+    padding-bottom: 3vmin;
+}
+
+header .container-fluid .col-md-12 .link {
+    margin-left: 7rem;
+    
+}
+
+header .container-fluid .col-md-12 .link{
+    background: black;
+    color: white;
+    width: 350px;
+    padding: 1rem;
+    opacity: 0.9;
+}
+
+header .container-fluid .col-md-12 .link a {
+    text-decoration: none;
+    color: rgb(165, 165, 165);
+}
+header .container-fluid .col-md-12 .link i {
+    margin-right: 1rem;
+}
+
+header .container-fluid .col-md-12 .link a:hover {
+    color: white;
+}
+
+.card .news img {
+    height: 1rem !important;
+}
+
+/* About Sections */
+
+.section-about {
+    padding: 20vmin 0vmin;
+    /* background: url("../assets/paper.png"); */
+    background-color: var(--relics-bg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-about h2 {
+    font-family: var(--alfaslab);
+    font-weight: none;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    color: var(--relics-accent);
+}
+
+.section-about p {
+    color: var(--relics-text);
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 1024px) {
+    header .container-fluid .col-md-12 .link {
+        margin-left: 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header .container-fluid .col-md-12 .link {
+        margin-left: 2rem;
+    }
+}
+
+@media only screen and (max-width: 645px)  {
+   
+}
+
+@media only screen and (max-width: 414px)  {
+ 
+}

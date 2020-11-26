@@ -20,6 +20,7 @@ section {
     --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
 }
 
+
 header .navbar {
     background: var(--relics-accent);
 }
@@ -54,6 +55,7 @@ header .navbar-brand img {
     background: var(--relics-bg);
     box-shadow: 0px 2.67692px 2.67692px rgba(0, 0, 0, 0.25);
     padding: 4vmin 1vmin;
+    z-index: 3;
 }
 
 header .mob {
@@ -393,4 +395,10 @@ footer .column i+i {
     background: rgba(0, 0, 0, 0.815);
     z-index: 9999;
     transition: all 1.5s ease;
+}
+
+/* Map Styling */
+
+#map {
+    width: 100%;
 }
